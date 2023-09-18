@@ -10,4 +10,6 @@
 6. BP 製作場景藥水道具，並添加觸碰音效。
 7. 當角色碰到場景中道具時的血量變化。
 8. BP 製作記分板：當角色碰到場地上的方塊時，會加減顯示的分數
+9. BP 製作接觸會爆炸的 Box
+10. 第一人稱射擊，擊中 Box 會計算新分數
 - [學習範例](https://www.youtube.com/watch?v=xPEGSgXaTzQ&list=PLWaDU4I4My4RBwegzH8LnhAo5YN4krysV&index=2&ab_channel=%E8%94%A1%E6%98%8E%E6%AC%A3)

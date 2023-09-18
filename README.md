@@ -12,4 +12,6 @@
 8. BP 製作記分板：當角色碰到場地上的方塊時，會加減顯示的分數
 9. BP 製作接觸會爆炸的 Box
 10. 第一人稱射擊，擊中 Box 會計算新分數
+11. 將 ScoreBoard 的 Score 變數移動到 GameMode
+    (遇到的問題；在 GameMode 預設的 Score 不會顯示在計分板上)
 - [學習範例](https://www.youtube.com/watch?v=xPEGSgXaTzQ&list=PLWaDU4I4My4RBwegzH8LnhAo5YN4krysV&index=2&ab_channel=%E8%94%A1%E6%98%8E%E6%AC%A3)

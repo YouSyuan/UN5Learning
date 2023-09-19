@@ -40,3 +40,9 @@ BluePrint：
     - 如果沒有生成的話，會藉由客製化事件跳到迴圈最前面重新執行。
     - 如果有生成，就會將計數變數 +1 來判斷目前生成的編號。
 - [學習範例](https://www.youtube.com/watch?v=xPEGSgXaTzQ&list=PLWaDU4I4My4RBwegzH8LnhAo5YN4krysV&index=2&ab_channel=%E8%94%A1%E6%98%8E%E6%AC%A3)
+
+
+場景設計基礎-方塊布局：
+1. 幾何物件 Geometry：
+    - 建立桌子、椅子
+- [學習範例](https://www.youtube.com/watch?v=3XWNR9IJnPo&list=PLWaDU4I4My4RRuRocZ2-AQDum5xt2Con1&index=1&pp=iAQB&ab_channel=%E8%94%A1%E6%98%8E%E6%AC%A3)

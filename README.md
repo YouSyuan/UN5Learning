@@ -20,8 +20,14 @@
     - 設置客製事件，分別處理加分與扣分。
     - 將角色與計分板連接。
     - 使用 Cast To 來判斷碰觸到方塊，已進行後續處理，並會播放音效。  
-9. BP 製作接觸會產生爆炸特效的 Box
-10. 第一人稱射擊，擊中 Box 會計算新分數
-11. 將 ScoreBoard 的 Score 變數移動到 GameMode
-    (遇到的問題：在 GameMode 預設的 Score 不會顯示在計分板上)
+9. BP 製作接觸會產生爆炸特效的 Box。
+10. 第一人稱射擊，擊中 Box 會計算新分數。
+11. 將 ScoreBoard 的 Score 變數移動到 GameMode：
+    - 遇到的問題：在 GameMode 預設的 Score 不會顯示在計分板上
+12. 設置不同方塊：
+    - 每次擊中時會累計受到傷害。
+    - 用 Branch 判斷，當累計傷害 >= 分數時，方塊會消失並累計分數。
+    - 在受到傷害與爆炸時，設置不同大小的爆炸效果。
+    - 遇到的問題：用角色觸碰到也會計算傷害量。
+    - 解決辦法：添加 Cast To 確保只會在受到子彈碰撞時才會累計受到傷害。
 - [學習範例](https://www.youtube.com/watch?v=xPEGSgXaTzQ&list=PLWaDU4I4My4RBwegzH8LnhAo5YN4krysV&index=2&ab_channel=%E8%94%A1%E6%98%8E%E6%AC%A3)

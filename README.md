@@ -34,4 +34,9 @@ BluePrint：
     - 製作要產生的物件，並加入 ShowNumber 事件，在上面顯示編號。
     - 創建一個 Random_Location 函數，產生隨機向量，提供物件生成的位置。
     - 在地圖藍圖用鍵盤指定按鍵，分別用 for loop (鍵盤2)和 while loop (鍵盤3)搭配 SpawnActor 在角色周圍隨機位置生成多個物件。
+14. 確保生成期望數量的物件：
+    - 調整 collision handling override 指令，確保產生的物件不會重疊。
+    - 使用 while loop 搭配 is Vaild 檢查 SpawnActor 是否有生成物件。
+    - 如果沒有生成的話，會藉由客製化事件跳到迴圈最前面重新執行。
+    - 如果有生成，就會將計數變數 +1 來判斷目前生成的編號。
 - [學習範例](https://www.youtube.com/watch?v=xPEGSgXaTzQ&list=PLWaDU4I4My4RBwegzH8LnhAo5YN4krysV&index=2&ab_channel=%E8%94%A1%E6%98%8E%E6%AC%A3)

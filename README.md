@@ -42,7 +42,8 @@ BluePrint：
 - [學習範例](https://www.youtube.com/watch?v=xPEGSgXaTzQ&list=PLWaDU4I4My4RBwegzH8LnhAo5YN4krysV&index=2&ab_channel=%E8%94%A1%E6%98%8E%E6%AC%A3)
 
 
-場景設計基礎-方塊布局：
+場景設計基礎：
 1. 幾何物件 Geometry：
     - 建立桌子、椅子
+2. 從 Quixel Bridge 下在資源。
 - [學習範例](https://www.youtube.com/watch?v=3XWNR9IJnPo&list=PLWaDU4I4My4RRuRocZ2-AQDum5xt2Con1&index=1&pp=iAQB&ab_channel=%E8%94%A1%E6%98%8E%E6%AC%A3)

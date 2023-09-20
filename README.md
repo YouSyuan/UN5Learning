@@ -61,5 +61,9 @@ BluePrint：
 6. 導入模型：
     - 調整大小。
     - 增加碰撞。
+7. 初設地形：
+    - 創建平地。
+    - 雕刻地形。
+    - 添加海洋。
 [學習範例](https://www.youtube.com/watch?v=lR6O08vikoE&list=PLXuT93fbHR3gDNl18mdPgqtXIV5rpnGD9&index=2)
     

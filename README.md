@@ -39,14 +39,14 @@ BluePrint：
     - 使用 while loop 搭配 is Vaild 檢查 SpawnActor 是否有生成物件。
     - 如果沒有生成的話，會藉由客製化事件跳到迴圈最前面重新執行。
     - 如果有生成，就會將計數變數 +1 來判斷目前生成的編號。
-[學習範例](https://www.youtube.com/watch?v=xPEGSgXaTzQ&list=PLWaDU4I4My4RBwegzH8LnhAo5YN4krysV&index=2&ab_channel=%E8%94%A1%E6%98%8E%E6%AC%A3)
+- [學習範例](https://www.youtube.com/watch?v=xPEGSgXaTzQ&list=PLWaDU4I4My4RBwegzH8LnhAo5YN4krysV&index=2&ab_channel=%E8%94%A1%E6%98%8E%E6%AC%A3)
 
 
 場景設計基礎：
 1. 幾何物件 Geometry：
     - 建立桌子、椅子
 2. 從 Quixel Bridge 下載資源。
-[學習範例](https://www.youtube.com/watch?v=3XWNR9IJnPo&list=PLWaDU4I4My4RRuRocZ2-AQDum5xt2Con1&index=1&pp=iAQB&ab_channel=%E8%94%A1%E6%98%8E%E6%AC%A3)
+- [學習範例](https://www.youtube.com/watch?v=3XWNR9IJnPo&list=PLWaDU4I4My4RRuRocZ2-AQDum5xt2Con1&index=1&pp=iAQB&ab_channel=%E8%94%A1%E6%98%8E%E6%AC%A3)
 
 
 使用 Unreal Learning Kit：
@@ -66,6 +66,8 @@ BluePrint：
     - 雕刻地形。
     - 添加海洋。
     - 添加花草。
+8. 調整環境：
     - 添加霧氣。
-[學習範例](https://www.youtube.com/watch?v=lR6O08vikoE&list=PLXuT93fbHR3gDNl18mdPgqtXIV5rpnGD9&index=2)
+    - 調整環境光(陽光)
+- [學習範例](https://www.youtube.com/watch?v=lR6O08vikoE&list=PLXuT93fbHR3gDNl18mdPgqtXIV5rpnGD9&index=2)
     

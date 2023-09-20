@@ -68,6 +68,9 @@ BluePrint：
     - 添加花草。
 8. 調整環境：
     - 添加霧氣。
-    - 調整環境光(陽光)
+    - 調整光源(陽光)。
+    - 調整 skylight。
+    - 調整後期處理體積。
+9. 加入粒子。
 - [學習範例](https://www.youtube.com/watch?v=lR6O08vikoE&list=PLXuT93fbHR3gDNl18mdPgqtXIV5rpnGD9&index=2)
     

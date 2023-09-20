@@ -65,5 +65,6 @@ BluePrint：
     - 創建平地。
     - 雕刻地形。
     - 添加海洋。
+    - 添加花草。
 [學習範例](https://www.youtube.com/watch?v=lR6O08vikoE&list=PLXuT93fbHR3gDNl18mdPgqtXIV5rpnGD9&index=2)
     

@@ -80,6 +80,11 @@ BluePrint：
     - 設定基礎顏色。
     - 設定雙面，避免從內往外看是透明的。
     - 設定 Metallic, 高光度, 粗糙度, 自發光。
-    - 添加木頭紋理
+    - 添加木頭紋理與增加表面凹凸(法線 Normal)。
+    - 導入紋理，並創建材質。
+    - 將創建的材質轉貼花。
+    - 調整物件是否接受貼花。
+    - 在貼花上添加法向量，增加表面層次(用Photoshop 製作再導入)。
+        - 問題：我沒有 Photoshop，用 unreal 的 NormalFromHeightmap 搭配一個載有一樣貼花的 Param Tex Object 可以達到類似的效果。
 - [學習範例](https://www.youtube.com/watch?v=lR6O08vikoE&list=PLXuT93fbHR3gDNl18mdPgqtXIV5rpnGD9&index=2)
     

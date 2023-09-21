@@ -78,5 +78,7 @@ BluePrint：
     - 加入火的音效，並隨距離衰減。
 11. 建立材質：
     - 設定基礎顏色。
+    - 設定雙面，避免從內往外看是透明的。
+    - 設定 Metallic, 高光度, 粗糙度。
 - [學習範例](https://www.youtube.com/watch?v=lR6O08vikoE&list=PLXuT93fbHR3gDNl18mdPgqtXIV5rpnGD9&index=2)
     

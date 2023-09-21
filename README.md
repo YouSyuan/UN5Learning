@@ -86,5 +86,9 @@ BluePrint：
     - 調整物件是否接受貼花。
     - 在貼花上添加法向量，增加表面層次(用Photoshop 製作再導入)。
         - 問題：我沒有 Photoshop，用 unreal 的 NormalFromHeightmap 搭配一個載有一樣貼花的 Param Tex Object 可以達到類似的效果。
+    - 製作過場動畫：
+        - 錄製兩段畫面並銜接。
+        - 讓場景中的物件隨著鏡頭畫面的推進產生縮放。
+        - 讓太陽(場景光源)產生升起的樣式。
 - [學習範例](https://www.youtube.com/watch?v=lR6O08vikoE&list=PLXuT93fbHR3gDNl18mdPgqtXIV5rpnGD9&index=2)
     

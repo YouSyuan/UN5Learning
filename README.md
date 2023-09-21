@@ -93,5 +93,9 @@ BluePrint：
         - 加入移動中的角色。
         - 加入不同動畫間的漸變軌道。
         - 加入 BGM。
+        - 導出影片。
+    - 角色設定：
+        - 綁定骨架(研究中...)
+        - 動作設定(研究中...)
 - [學習範例](https://www.youtube.com/watch?v=lR6O08vikoE&list=PLXuT93fbHR3gDNl18mdPgqtXIV5rpnGD9&index=2)
     

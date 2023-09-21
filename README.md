@@ -76,5 +76,7 @@ BluePrint：
     - P.S. 音檔格式 wav, aif， 16位
     - 導入 BGM。
     - 加入火的音效，並隨距離衰減。
+11. 建立材質：
+    - 設定基礎顏色。
 - [學習範例](https://www.youtube.com/watch?v=lR6O08vikoE&list=PLXuT93fbHR3gDNl18mdPgqtXIV5rpnGD9&index=2)
     

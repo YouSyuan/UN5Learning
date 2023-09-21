@@ -91,5 +91,7 @@ BluePrint：
         - 讓場景中的物件隨著鏡頭畫面的推進產生縮放。
         - 讓太陽(場景光源)產生升起的樣式。
         - 加入移動中的角色。
+        - 加入不同動畫間的漸變軌道。
+        - 加入 BGM。
 - [學習範例](https://www.youtube.com/watch?v=lR6O08vikoE&list=PLXuT93fbHR3gDNl18mdPgqtXIV5rpnGD9&index=2)
     

@@ -97,5 +97,7 @@ BluePrint：
     - 角色設定：
         - 綁定骨架(研究中...)
         - 動作設定(研究中...)
+        - 按下指定鍵顯示滑鼠鼠標。(目前遇到的問題：在顯示滑鼠時移動滑鼠，視角也會跟著轉動)
+        - 加入超級跳按法
 - [學習範例](https://www.youtube.com/watch?v=lR6O08vikoE&list=PLXuT93fbHR3gDNl18mdPgqtXIV5rpnGD9&index=2)
     

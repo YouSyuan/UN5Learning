@@ -111,9 +111,15 @@ BluePrint：
         - 使用 Timeline 來創建動畫的時間軸。
         - 使用 Lerp(Vector) 依據 Timeline 中設定的時間軸變化，輸出不同的向量值。
         - 使用 Set Relative Transform 接收 Lerp 的值來改變道具石的相對位置。
-    - 添加技能：
+    - 添加技能 01：
         - 設定一個要射出的發光粒子。
-        - 在動畫藍圖添加判斷是否釋放技能和回到原本的動作。
+        - 在動畫藍圖添加判斷是否釋放技能和回到原本的動作(在移動時會變成平移狀態XD)。
+        - 從骨骼網格體取得動畫實例，再轉換成角色的動畫藍圖，並轉換成變量來保存(保存在動畫藍圖中的變量)。
+        - 將上面保存的變量：
+            - 設置為 True (動畫藍圖中的變量)，加上 Spawn System Attached 來釋放技能(加入一個延遲確保動畫和釋放特效可以一致)。
+            - 設置為 False 停止釋放技能的動作。
+        - 如果在移動中釋放技能，將移動速度調整為 0，解決邊釋放邊平移的情況。
+            
 
 - [學習範例](https://www.youtube.com/watch?v=lR6O08vikoE&list=PLXuT93fbHR3gDNl18mdPgqtXIV5rpnGD9&index=2)
     

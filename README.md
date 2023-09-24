@@ -95,8 +95,9 @@ BluePrint：
     - 加入 BGM。
     - 導出影片。
 13. 角色設定：
-    - 綁定骨架(研究中...)
-    - 動作設定(研究中...)
+    - 綁定骨架
+    - 綁定基本動作：
+        - 已綁定：待機、走路、跑步。
     - 按下指定鍵顯示滑鼠鼠標。(目前遇到的問題：在顯示滑鼠時移動滑鼠，視角也會跟著轉動)
     - 加入超級跳：
         - 使用 ctrl + space 觸發。
@@ -110,6 +111,9 @@ BluePrint：
         - 使用 Timeline 來創建動畫的時間軸。
         - 使用 Lerp(Vector) 依據 Timeline 中設定的時間軸變化，輸出不同的向量值。
         - 使用 Set Relative Transform 接收 Lerp 的值來改變道具石的相對位置。
+    - 添加技能：
+        - 設定一個要射出的發光粒子。
+        - 在動畫藍圖添加判斷是否釋放技能和回到原本的動作。
 
 - [學習範例](https://www.youtube.com/watch?v=lR6O08vikoE&list=PLXuT93fbHR3gDNl18mdPgqtXIV5rpnGD9&index=2)
     

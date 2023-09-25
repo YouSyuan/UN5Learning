@@ -159,5 +159,10 @@ BluePrint：
     - 增加一個控制範圍限制，在範圍內才可以進行開關：
         - 使用 Gate 來判斷角色是否在指定範圍內。
         - 是就使用 Open，否則使用 Close。
+    - 增加一道控制的門：
+        - 使用時間軸控制門開關的位置變化。
+        - 設置兩個客製化 Event：OpenGate, CloseGate。
+        - 在開關的藍圖添加一個門的變量，並且設置為公開。
+        - 將兩個客製化 Event 分別接在 FlipFlop 的 A 和 B，讓在用滑鼠操作開關時可以一起執行動畫。
 - [學習範例](https://www.youtube.com/watch?v=lR6O08vikoE&list=PLXuT93fbHR3gDNl18mdPgqtXIV5rpnGD9&index=2)
     

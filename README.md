@@ -111,6 +111,7 @@ BluePrint：
         - 使用 Timeline 來創建動畫的時間軸。
         - 使用 Lerp(Vector) 依據 Timeline 中設定的時間軸變化，輸出不同的向量值。
         - 使用 Set Relative Transform 接收 Lerp 的值來改變道具石的相對位置。
+14. 角色技能：
     - 添加技能 01 - 召喚螢火蟲：
         - 設定一個要召喚的發光粒子。
         - 在動畫藍圖添加判斷釋放技能和回到原本的動作(在移動時會變成平移狀態XD)。
@@ -127,6 +128,9 @@ BluePrint：
             - 使用 Get Actor Location 來取的角色的向量位置。
             - 將向量分割後，將 Z 軸的數值降低。
         - 建立一個客製化事件，用來判斷技能的 CD 時間是否已經結束。
+        - 添加攝影機震動：
+            - 使用 LegacyCameraShake 創建產生震動的藍圖。
+            - 連接玩家的攝影機(Player Camera Manager)。
 
 - [學習範例](https://www.youtube.com/watch?v=lR6O08vikoE&list=PLXuT93fbHR3gDNl18mdPgqtXIV5rpnGD9&index=2)
     

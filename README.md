@@ -156,5 +156,8 @@ BluePrint：
     - 使用 set relative rotation 接收來置時間軸(透過Lerp(Rotator))來控制開關的旋轉。
     - 在角色藍圖添加 set Enable Click Events 來啟用滑鼠點擊。
     - 物件添加 On Clicked 事件，搭配 Flip Flop 來判斷點擊時，動畫是要從開始到結束，還是從結束到開始。
+    - 增加一個控制範圍限制，在範圍內才可以進行開關：
+        - 使用 Gate 來判斷角色是否在指定範圍內。
+        - 是就使用 Open，否則使用 Close。
 - [學習範例](https://www.youtube.com/watch?v=lR6O08vikoE&list=PLXuT93fbHR3gDNl18mdPgqtXIV5rpnGD9&index=2)
     

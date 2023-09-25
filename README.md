@@ -131,6 +131,13 @@ BluePrint：
         - 添加攝影機震動：
             - 使用 LegacyCameraShake 創建產生震動的藍圖。
             - 連接玩家的攝影機(Player Camera Manager)。
+15. 掉落深淵：
+    - 當角色掉落到一定位置時，會從天上掉下來。
+    - 建立一個目標點，用來當重置角色位置時，會出現的地點。    
+    - 建立一個 BP 碰撞體，用來判斷角色應該重置位置：
+        - 建立一個目標點的位置的變數，並開啟公有，用來保存目標點。
+        - 建立 Begin Overlap 事件，並將 Other Actor 連接到判斷接觸的是否為玩家角色。
+        - 取得目標點位置後，傳給玩家角色，設定現在向量。
 
 - [學習範例](https://www.youtube.com/watch?v=lR6O08vikoE&list=PLXuT93fbHR3gDNl18mdPgqtXIV5rpnGD9&index=2)
     

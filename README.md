@@ -164,5 +164,20 @@ BluePrint：
         - 設置兩個客製化 Event：OpenGate, CloseGate。
         - 在開關的藍圖添加一個門的變量，並且設置為公開。
         - 將兩個客製化 Event 分別接在 FlipFlop 的 A 和 B，讓在用滑鼠操作開關時可以一起執行動畫。
+19. 建立點擊開啟的火把：
+    - 建立一個 bool 變數來判斷當前是否點燃。
+    - 未點燃：點燃火焰(開啟光源、火焰特效、音效)，並將 bool 變數設置為 True。
+    - 使用時間軸來控制光源從暗到亮的變化。
+20. 使用繼承建立開關的子藍圖：
+    - 在父類別中定義好把手的動畫。
+    - 建立兩個虛函式( Open, Close )的客製類別給子藍圖 overloading。
+    - 建立開關的子藍圖：
+        - 子藍圖 1：開關門
+            - 重載父類的 Open, Close 分別用來給指定門開與關。
+        - 子藍圖 2：開關火把。
+            - 重載父類的 Open, Close 分別用來給指定門開與關。
+            - 將指定的多個火把加上一樣的標籤。
+            - 使用 Get All Actors Of Class with Tag 來取得所有同類別與同標籤的數組。
+            - 並且使用 For Each Loop 來讀取數組中全部的火把，並一次操作開關。
 - [學習範例](https://www.youtube.com/watch?v=lR6O08vikoE&list=PLXuT93fbHR3gDNl18mdPgqtXIV5rpnGD9&index=2)
     

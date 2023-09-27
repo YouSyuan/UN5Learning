@@ -201,5 +201,25 @@ BluePrint：
         - 添加項目 -> 體積 -> 關卡流送體積。 
         - 將要看到上面關卡的範圍全部包含進這個體積裡面(新建關卡的物件也要全部放進去)。
         - 點擊新建的關卡，在點擊關卡細節訊息，將設定好範圍的流送體積添加進去，並將靜態打勾。
+24. 構造腳本：
+    - 可以動態的調整要放到地圖中的物件，如果要放入多個，可以直接在地圖中調整，不用在手動一個一個加入。
+    - 一排柵欄：
+        - 使用 Add Static Mesh Component 將製作好的靜態網格加入。
+        - 使用 Set Static Mesh 設置靜態網格的位置向量。
+        - 創建 Count 變數來統計需要的數量，並設為公開。
+        - 使用 For Loop 搭配運算來將多個柵欄一次排開。
+        - 創建靜態網格的數組，用來儲存做好的不同柵欄靜態網格。
+        - 搭配 Random Int 來隨機取得數組中的任一個柵欄來設置。
+    - 石牆：
+        - 使用 Add Static Mesh Component 將製作好的靜態網格加入。
+        - 使用 Set Static Mesh 設置靜態網格的位置向量。
+        - 創建 Count 變數來統計需要的數量，並設為公開。
+        - 創建一個 Spline 樣條組件，用來規劃石頭生成的路徑。
+        - 使用 Get Spline Length 取得樣條長度。
+        - 使用 Get Location at Distance Along Spline 取得樣條距離初始位置的距離位置。
+        - 使用 For Loop 搭配運算來將多個石頭沿著 Spline 的路徑與長度排開。
+        - 在使用兩個隨機浮點數來讓石頭的旋轉與大小產生變化。
+        - 創建靜態網格的數組，用來儲存做好的不同柵欄靜態網格。
+        - 搭配 Random Int 來隨機取得數組中的任一個石頭來設置。
 - [學習範例](https://www.youtube.com/watch?v=lR6O08vikoE&list=PLXuT93fbHR3gDNl18mdPgqtXIV5rpnGD9&index=2)
     
